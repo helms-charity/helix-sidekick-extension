@@ -2613,6 +2613,7 @@
           },
         });
         // add default plugins
+        addBulkPlugins(this);
         addEditPlugin(this);
         addEnvPlugins(this);
         addPreviewPlugin(this);
@@ -2620,7 +2621,6 @@
         addDeletePlugin(this);
         addPublishPlugin(this);
         addUnpublishPlugin(this);
-        addBulkPlugins(this);
         addCustomPlugins(this);
         // fetch status
         this.fetchStatus();
